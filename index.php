@@ -29,8 +29,8 @@ try {
     //$mail->addBCC('bcc@example.com');C:\Users\a-glazyrin\Desktop\dev\php_dev\PHPmailer\vendor\files\123.txt
 
     // Вложенные файлы
-    $mail->addAttachment('C:\Users\a-glazyrin\Desktop\dev\php_dev\PHPmailer\vendor\phpmailer\phpmailer\files\123.zip');         // Добавление файла
-    $mail->addAttachment('C:\Users\a-glazyrin\Desktop\dev\php_dev\PHPmailer\vendor\phpmailer\phpmailer\files\images\1_92.jpg');    // Добавление изображения
+    $mail->addAttachment('.\vendor\phpmailer\phpmailer\files\123.zip');         // Добавление файла
+    $mail->addAttachment('.\vendor\phpmailer\phpmailer\files\images\1_92.jpg');    // Добавление изображения
 
 
     // Контент письма
